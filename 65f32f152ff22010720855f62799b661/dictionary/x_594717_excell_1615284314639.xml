@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Excell 1615284314639" max_length="40" name="x_594717_excell_1615284314639" sizeclass="27" type="collection">
+    <element extends="sys_import_set_row" label="Excell 1615284314639" max_length="40" name="x_594717_excell_1615284314639" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=B" label="B" max_length="40" name="u_b" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=C" label="C" max_length="40" name="u_c" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=D" label="D" max_length="40" name="u_d" type="string"/>

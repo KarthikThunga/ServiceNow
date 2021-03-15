@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Information" max_length="40" name="x_594717_excell_information" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Branch" max_length="5" name="branch" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CIVIL" value="CIVIL"/>
+                <element inactive_on_update="false" label="CSE" value="CSE"/>
+                <element inactive_on_update="false" label="ECE" value="ECE"/>
+                <element inactive_on_update="false" label="EEE" value="EEE"/>
+                <element inactive_on_update="false" label="MECH" value="MECH"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="HOD Name" max_length="32" name="hod_name" reference="sys_user" type="reference"/>
+        <element label="Name" max_length="30" name="name" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Roll No" max_length="10" name="roll_no" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="hod_name"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
